@@ -1,0 +1,7 @@
+<h1 class="text-center">Bienvenido al mercado WEB, seleccione sus productos</h1>
+
+<div class="row mx-5">
+    {{#each frutas }}
+        {{> producto item=this}}
+    {{/each}}
+</div>
