@@ -22,8 +22,13 @@ app.use(
         __dirname + "/node_modules/bootstrap/dist/css/bootstrap.min.css"
     )
 );
+app.use(
+    "/js/bootstrap.min.js",
+    express.static(
+        __dirname + "/node_modules/bootstrap/dist/js/bootstrap.min.js"
+    )
+);
 
-// app.use js
 
 app.get("/mercado", (req, res) => {
     res.render("dashboard", {
