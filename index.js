@@ -37,6 +37,6 @@ app.get("/mercado", (req, res) => {
 });
 
 
-
+// 
 
 app.listen(5000, () => console.log("servidor andando en puerto 5000"))
